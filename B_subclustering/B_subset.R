@@ -3,7 +3,6 @@ library(ggplot2)
 library(ggpubr)
 library(gplots)
 library(Matrix)
-library(DESeq2)
 library(gridExtra)
 library(rstatix)
 

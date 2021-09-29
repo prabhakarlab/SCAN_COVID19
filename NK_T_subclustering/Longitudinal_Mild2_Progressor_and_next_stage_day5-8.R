@@ -5,9 +5,7 @@ library(gplots)
 library(gridExtra)
 library(RCAv2)
 library(dbplyr)
-library(gplots)
 library(ggrepel)
-library(gridExtra)
 
 PBMC.integrated.good <- readRDS("PBMC.integrated.T.NK.good.rds")
 

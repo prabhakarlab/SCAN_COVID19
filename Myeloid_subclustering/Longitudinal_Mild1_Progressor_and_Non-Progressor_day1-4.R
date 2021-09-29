@@ -1,7 +1,5 @@
 library(ggplot2)
 library(ggpubr)
-library(gplots)
-library(gridExtra)
 library(RCAv2)
 library(dbplyr)
 library(gplots)

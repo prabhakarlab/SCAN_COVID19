@@ -1,12 +1,10 @@
 library(ggplot2)
 library(ggpubr)
-library(gplots)
 library(gridExtra)
 library(RCAv2)
 library(dbplyr)
 library(gplots)
 library(ggrepel)
-library(gridExtra)
 library(Seurat)
 
 PBMC.integrated.good <- readRDS("PBMC.integrated.Mono.good.rds")
