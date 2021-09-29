@@ -174,7 +174,7 @@ ggplot(umap.df, aes(x=seurat_clusters, y=pMito)) +
   xlab("")
 dev.off()
 
-######## profile NODG and pMito in UMAP
+######## profile NODG in UMAP
 umap.df2 <- FetchData(PBMC.integrated, vars = c("UMAP_1","UMAP_2"))
 
 # NODG
@@ -182,12 +182,6 @@ rawdata <- PBMC.integrated@assays$RNA@counts
 nGeneVec <- Matrix::colSums(rawdata>0)
 nGeneVec <- nGeneVec[(rownames(umap.df2))]
 umap.df2$NODG <- nGeneVec
-# pMito
-mito.genes = grep(pattern = "^MT-", x = rownames(rawdata), value = T)
-# Compute percent.mito vector
-pMitoVec <- Matrix::colSums(rawdata[mito.genes, , drop = FALSE])/Matrix::colSums(rawdata)
-pMitoVec <- pMitoVec[(rownames(umap.df2))]
-umap.df2$pMito <- pMitoVec
 
 ## all cells UMAP highlighting NODG
 umap.df2[which(umap.df2$NODG>4000),"NODG"] <- 4000
@@ -270,7 +264,7 @@ ggplot(umap.df, aes(x=seurat_clusters, y=pMito)) +
   xlab("")
 dev.off()
 
-######## profile NODG and pMito in UMAP
+######## profile NODG in UMAP
 umap.df2 <- FetchData(PBMC.integrated.good, vars = c("UMAP_1","UMAP_2"))
 
 # NODG
@@ -278,12 +272,6 @@ rawdata <- PBMC.integrated.good@assays$RNA@counts
 nGeneVec <- Matrix::colSums(rawdata>0)
 nGeneVec <- nGeneVec[(rownames(umap.df2))]
 umap.df2$NODG <- nGeneVec
-# pMito
-mito.genes = grep(pattern = "^MT-", x = rownames(rawdata), value = T)
-# Compute percent.mito vector
-pMitoVec <- Matrix::colSums(rawdata[mito.genes, , drop = FALSE])/Matrix::colSums(rawdata)
-pMitoVec <- pMitoVec[(rownames(umap.df2))]
-umap.df2$pMito <- pMitoVec
 
 ## all cells UMAP highlighting NODG
 umap.df2[which(umap.df2$NODG>4000),"NODG"] <- 4000
@@ -365,7 +353,7 @@ ggplot()+geom_point(data = marker.df,
         axis.line = element_line(colour = "black"))
 dev.off()
 
-### annotated based cluster.final results and marker genes
+### annotated based on marker genes
 umap.df$cell <- NA
 umap.df[which(umap.df$seurat_clusters==0),"cell"] <- "CD4 Tcm"
 umap.df[which(umap.df$seurat_clusters==1),"cell"] <- "Naive CD4 T"
@@ -485,6 +473,9 @@ ggplot()+geom_point(data = marker.df,
         axis.line = element_line(colour = "black"))
 dev.off()
 
+umap.df$lib <- unlist(lapply(umap.df$barcode, function(x) unlist(strsplit(x, split = "_"))[2] ))
+umap.df$batch <- substr(umap.df$lib,1,nchar(umap.df$lib)-1)
+
 # add cell annotation, lib and batch
 PBMC.integrated.good$cell.annotation <- umap.df[colnames(PBMC.integrated.good), "cell"]
 PBMC.integrated.good$lib <- umap.df[colnames(PBMC.integrated.good), "lib"]
@@ -603,7 +594,6 @@ unique_celltype <- c("CD4 Tcm","CD4 Tem","CD8 Tem","CD16bright NK",
                      "Naive CD4 T","Naive CD8 T",
                      "Treg")
 
-### adjusted pvalue
 for (i in seq_along(unique_celltype)){
   unique_celltype.i <- unique_celltype[i]
   abundance.df.final_new.down1 <- abundance.df.final_new.cat1[(abundance.df.final_new.cat1$cell.annotation==unique_celltype.i),]
@@ -641,7 +631,7 @@ for (i in seq_along(unique_celltype)){
 }
 
 
-## cell abundance analysis between day >8  
+## cell abundance analysis between > day 8  
 abundance.df.final_new.cat2 <- abundance.df.final_new.cat[(abundance.df.final_new.cat$cat.x %in% c(1,4,5)),]
 
 unique_celltype <- c("CD4 Tcm","CD4 Tem","CD8 Tem","CD16bright NK",
@@ -649,8 +639,6 @@ unique_celltype <- c("CD4 Tcm","CD4 Tem","CD8 Tem","CD16bright NK",
                      "Naive CD4 T","Naive CD8 T",
                      "Treg")
 
-
-### calculate kruskal p value
 
 for (i in seq_along(unique_celltype)){
   unique_celltype.i <- unique_celltype[i]
@@ -809,7 +797,7 @@ ggplot()+
        panel.background = element_blank(), 
        axis.line = element_line(colour = "black"))+
   scale_color_gradient2(low = "darkblue",mid="orange",high = "yellow", limits=c(0,0.5), midpoint = 0.25)
-ggsave(paste0("15.integrated_UMAP_with_TCR_clonatype_proportion.png"),device = "png",width = 6, height = 5)
+ggsave("15.integrated_UMAP_with_TCR_clonatype_proportion.png",device = "png",width = 6, height = 5)
 
 ####### calculate top 10 expanded TCR ratio across different severity (among top 50)
 celltype.bk.sub <- celltype.bk[(!is.na(celltype.bk$TCRgene)),]
@@ -891,7 +879,7 @@ for (a in seq(3,20,1)){
           axis.line = element_line(colour = "black"))+
     stat_pvalue_manual(stat.test, label = "p.adj")+
     ggtitle(paste0("Kruskal p = ",kruskal.a.res))
-    ggsave(paste0("16.1.top",a,"_TCR_proportion_comparsion_across_severities_early_and_rising_50_TCR.pdf"))
+  ggsave(paste0("16.1.top",a,"_TCR_proportion_comparsion_across_severities_early_and_rising_50_TCR.pdf"))
   
 }
 
@@ -939,7 +927,7 @@ for (a in seq(3,20,1)){
           panel.background = element_blank(), 
           axis.line = element_line(colour = "black"))+
     ggtitle(paste0("P-value = ",kruskal.i.res))
-    ggsave(paste0("16.2.top",a,"_TCR_proportion_comparsion_across_severities_peak_and_late_kruskal_50_TCR.pdf"))
+  ggsave(paste0("16.2.top",a,"_TCR_proportion_comparsion_across_severities_peak_and_late_kruskal_50_TCR.pdf"))
   
 }
 

@@ -47,8 +47,8 @@ ggplot()+
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(),
         panel.background = element_blank(), 
-        axis.line = element_line(colour = "black"))+
-  ggsave("14.Next_stage_of_mild1_progression_early/UMAP_of_Mild1_progression_and_Next_stage.png",
+        axis.line = element_line(colour = "black"))
+ggsave("14.Next_stage_of_mild1_progression_early/UMAP_of_Mild1_progression_and_Next_stage.png",
          device = "png",width = 5, height = 4)
 
 

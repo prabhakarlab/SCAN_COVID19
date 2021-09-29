@@ -662,7 +662,7 @@ for (i in seq_along(cell)){
   
 }
 
-################# gene heatmap for upregulated IF genes in progressor compared to non pregression
+################# gene heatmap for upregulated IF genes in progressor compared to non pregressor
 # upregulated genes
 gene.c <- c()
 cell <- c("CD4 Tcm","CD4 Tem","CD8 Tem","CD16bright NK","Cytotoxic CD8 T","Naive CD8 T")

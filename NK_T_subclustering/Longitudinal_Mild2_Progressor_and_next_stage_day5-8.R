@@ -126,7 +126,7 @@ for (cell.a in  seq_along(unique_celltype)){
           panel.background = element_blank(), 
           axis.line = element_line(colour = "black"))+
     ggtitle(paste0("number of cell = ",sum(freq.n$Freq),"\n",
-                   "number of sample = ", nrow(freq.n)))+
+                   "number of sample = ", nrow(freq.n)))
     ggsave(paste0("14.Next_stage_of_mild2_progression/1.Barplot_of_sample_counts_in_Progression_Mild2_NEXT_",
                   "in_",gsub(" ","_",cell),".png"), device = "png")
   
@@ -148,7 +148,7 @@ for (cell.a in  seq_along(unique_celltype)){
           panel.background = element_blank(), 
           axis.line = element_line(colour = "black"))+
     ggtitle(paste0("number of cell = ",sum(freq.p$Freq),"\n",
-                   "number of sample = ", nrow(freq.p)))+
+                   "number of sample = ", nrow(freq.p)))
     ggsave(paste0("14.Next_stage_of_mild2_progression/1.Barplot_of_sample_counts_in_Progression_Mild2_",
                   "in_",gsub(" ","_",cell),".png"), device = "png")
   

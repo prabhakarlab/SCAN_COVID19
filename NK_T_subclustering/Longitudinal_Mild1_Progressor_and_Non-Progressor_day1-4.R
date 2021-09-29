@@ -133,7 +133,7 @@ for (cell.a in  seq_along(unique_celltype)){
           panel.background = element_blank(), 
           axis.line = element_line(colour = "black"))+
     ggtitle(paste0("number of cell = ",sum(freq.n$Freq),"\n",
-                   "number of sample = ", nrow(freq.n)))+
+                   "number of sample = ", nrow(freq.n)))
     ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_NonProgression_Mild1_",
                   "in_",gsub(" ","_",cell),".png"), device = "png")
   
@@ -155,7 +155,7 @@ for (cell.a in  seq_along(unique_celltype)){
           panel.background = element_blank(), 
           axis.line = element_line(colour = "black"))+
     ggtitle(paste0("number of cell = ",sum(freq.p$Freq),"\n",
-                   "number of sample = ", nrow(freq.p)))+
+                   "number of sample = ", nrow(freq.p)))
     ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_Progression_Mild1_",
                   "in_",gsub(" ","_",cell),".png"), device = "png")
   
@@ -224,8 +224,8 @@ ggplot(freq.p, mapping = aes(x=Var1, y=Freq))+
         panel.background = element_blank(), 
         axis.line = element_line(colour = "black"))+
   ggtitle(paste0("number of cell = ",sum(freq.p$Freq),"\n",
-                 "number of sample = ", nrow(freq.p)))+
-  ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_NonProgression_Mild1_CD4_Tcm_after_downsampling.png"), device = "png")
+                 "number of sample = ", nrow(freq.p)))
+ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_NonProgression_Mild1_CD4_Tcm_after_downsampling.png"), device = "png")
 
 
 de.ij <- RCAv2:::ComputePairWiseDE(object = PBMC.integrated.good@assays$RNA@data, 
@@ -282,8 +282,8 @@ ggplot(freq.p, mapping = aes(x=Var1, y=Freq))+
         panel.background = element_blank(), 
         axis.line = element_line(colour = "black"))+
   ggtitle(paste0("number of cell = ",sum(freq.p$Freq),"\n",
-                 "number of sample = ", nrow(freq.p)))+
-  ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1//1.Barplot_of_sample_counts_in_Progression_Mild1_CD4_Tem_after_downsampling.png"), device = "png")
+                 "number of sample = ", nrow(freq.p)))
+ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1//1.Barplot_of_sample_counts_in_Progression_Mild1_CD4_Tem_after_downsampling.png"), device = "png")
 
 
 
@@ -314,8 +314,8 @@ ggplot(freq.p, mapping = aes(x=Var1, y=Freq))+
         panel.background = element_blank(), 
         axis.line = element_line(colour = "black"))+
   ggtitle(paste0("number of cell = ",sum(freq.p$Freq),"\n",
-                 "number of sample = ", nrow(freq.p)))+
-  ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_NonProgression_Mild1_CD4_Tem_after_downsampling.png"), device = "png")
+                 "number of sample = ", nrow(freq.p)))
+ggsave(paste0("14.sample_counts_subanalysis_for_DEG_analysis_mild1_progression_and_nonprogression_single_cell_timepoint1/1.Barplot_of_sample_counts_in_NonProgression_Mild1_CD4_Tem_after_downsampling.png"), device = "png")
 
 
 de.ij <- RCAv2:::ComputePairWiseDE(object = PBMC.integrated.good@assays$RNA@data, 

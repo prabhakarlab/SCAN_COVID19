@@ -267,7 +267,7 @@ ggplot(umap.df, aes(x=seurat_clusters, y=pMito)) +
   xlab("")
 dev.off()
 
-######## profile NODG and pMito in UMAP
+######## profile NODG in UMAP
 umap.df2 <- FetchData(PBMC.integrated.good, vars = c("UMAP_1","UMAP_2"))
 
 # NODG
@@ -576,7 +576,7 @@ for (i in seq_along(unique_celltype)){
     scale_fill_manual(values = c("#80DD00","#00AE46","#00997F",
                                  "#1313A9","#B20086","#F20000"))+
     ggtitle(paste0("Kruskal P-value = ",kruskal.i.res))
-    ggsave(paste0("16.1.differential_abundance_across_samples_in_",
+  ggsave(paste0("16.1.differential_abundance_across_samples_in_",
                   gsub(" ", "_", unique_celltype.i),"_early_and_rising.pdf"),width = 6, height = 4)
   
 }
@@ -656,7 +656,7 @@ for (i in seq_along(unique_celltype)){
     scale_fill_manual(values = c("#80DD00","#00AE46","#00997F",
                                  "#1313A9","#B20086","#F20000"))+
     ggtitle(paste0("Kruskal P-value = ",kruskal.i.res))
-    ggsave(paste0("16.2.differential_abundance_across_samples_in_",
+  ggsave(paste0("16.2.differential_abundance_across_samples_in_",
                   gsub(" ", "_", unique_celltype.i),"_peak_and_late.pdf"),width = 6, height = 4)
   
 }
@@ -871,7 +871,7 @@ for (a in seq(3,20,1)){
           axis.line = element_line(colour = "black"))+
     stat_pvalue_manual(stat.test, label = "p.adj")+
     ggtitle(paste0("Kruskal p = ",kruskal.a.res))
-    ggsave(paste0("18.1.top",a,"_BCR_proportion_comparsion_across_severities_early_rising.pdf"))
+  ggsave(paste0("18.1.top",a,"_BCR_proportion_comparsion_across_severities_early_rising.pdf"))
   
 }
 
@@ -924,7 +924,7 @@ for (a in seq(3,20,1)){
           axis.line = element_line(colour = "black"))+
     stat_pvalue_manual(stat.test, label = "p.adj")+
     ggtitle(paste0("Kruskal p = ",kruskal.a.res))
-    ggsave(paste0("18.2.top",a,"_BCR_proportion_comparsion_across_severities_peak_late.pdf"))
+  ggsave(paste0("18.2.top",a,"_BCR_proportion_comparsion_across_severities_peak_late.pdf"))
   
 }
 

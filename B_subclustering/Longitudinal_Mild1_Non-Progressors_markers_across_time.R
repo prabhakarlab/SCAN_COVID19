@@ -182,8 +182,8 @@ ggplot()+
         panel.grid.minor = element_blank(),
         panel.background = element_blank(), 
         axis.line = element_line(colour = "black"))+
-  guides(colour = guide_legend(override.aes = list(size=5)))+
-  ggsave("14.Different_stage_of_mild1_nonprogression/integrated_UMAP_highlighting_cells_with_different_enrichment_trends.png",
+  guides(colour = guide_legend(override.aes = list(size=5)))
+ggsave("14.Different_stage_of_mild1_nonprogression/integrated_UMAP_highlighting_cells_with_different_enrichment_trends.png",
          device = "png", width = 6, height = 5)
 
 

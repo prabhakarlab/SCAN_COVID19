@@ -241,8 +241,8 @@ for (i in seq(1,20,1)){
 
 
 
-increase <- c()
-decrease <- c()
+increase <- c() # cell states enriched with severity
+decrease <- c() # cell states depleted with severity
 for (i in seq(1,20,1)){
   cluster <- cl_wt$cluster
   cluster.names.i <- names(cluster[cluster==i])
@@ -291,7 +291,7 @@ ggsave("./integrated_UMAP_highlighting_cells_with_different_enrichment_trends.pn
 
 
 ######
-###### DEG in cell states enriched with severity 
+###### marker genes in cell states enriched with severity 
 ######
 ### CD4 Tcm
 umap.df.enrich.cd4tcm <- umap.df.enrich[(umap.df.enrich$cell.annotation == "CD4 Tcm"),]

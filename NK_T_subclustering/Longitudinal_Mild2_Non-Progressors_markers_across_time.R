@@ -32,8 +32,8 @@ ggplot()+
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(),
         panel.background = element_blank(), 
-        axis.line = element_line(colour = "black"))+
-  ggsave(paste0("14.Different_stage_of_mild2_nonprogression/0.UMAP_with_mild2_early.png"),device = "png",
+        axis.line = element_line(colour = "black"))
+ggsave(paste0("14.Different_stage_of_mild2_nonprogression/0.UMAP_with_mild2_early.png"),device = "png",
          width = 7, height = 6)
 
 
