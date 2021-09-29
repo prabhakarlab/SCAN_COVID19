@@ -1,0 +1,25 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	cat.x
+CG13	C-N001	2	3	11_CG13	0	rising systemic inflammation	3
+CG22	C-N012	1	3	16_CG22	0	rising systemic inflammation	3
+CG23	C-N013	1	3	11_CG23	0	rising systemic inflammation	3
+CG23	C-N013	2	3	12_CG23	0	rising systemic inflammation	3
+CG25	C-N019	2	3	8_CG25	0	rising systemic inflammation	3
+CG25	C-N019	3	3	11_CG25	0	rising systemic inflammation	3
+CG28	C-N025	1	3	2_CG28	0	rising systemic inflammation	3
+CG28	C-N025	2	3	9_CG28	0	rising systemic inflammation	3
+CG31	C-N038	1	3	3_CG31	0	rising systemic inflammation	3
+CG33	C-N044	2	3	9_CG33	0	rising systemic inflammation	3
+CG35	C-N068	2	3	3_CG35	0	rising systemic inflammation	3
+CG104	C-N069	1	3	20_CG104	0	rising systemic inflammation	3
+C-N074-1	C-N074	1	3	1_C-N074-1	0	rising systemic inflammation	3
+CG45	C-T020	1	3	2_CG45	0	rising systemic inflammation	3
+CG45	C-T020	2	3	8_CG45	0	rising systemic inflammation	3
+CG49	C-T030	2	3	20_CG49	0	rising systemic inflammation	3
+C-T031-1	C-T031	1	3	1_C-T031-1	0	rising systemic inflammation	3
+CG56	C-T059	1	3	20_CG56	0	rising systemic inflammation	3
+CG57	C-T068	1	3	4_CG57	0	rising systemic inflammation	3
+CG65	C-T101	1	3	3_CG65	0	rising systemic inflammation	3
+CG65	C-T101	2	3	5_CG65	0	rising systemic inflammation	3
+CG70	C-T129	2	3	6_CG70	0	rising systemic inflammation	3
+CG78	C-T157	1	3	17_CG78	0	rising systemic inflammation	3
+CG80	C-T163	1	3	1_CG80	0	rising systemic inflammation	3

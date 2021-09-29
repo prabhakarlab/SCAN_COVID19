@@ -1,0 +1,27 @@
+batch	sample	donor	severity	type
+19	CG10	C-C018	Moderate	resolution or persistent COVID-19 inflammation
+5	CG12	C-C024	Moderate	rising systemic inflammation
+6	CG14	C-N002	Moderate	rising systemic inflammation
+9	CG14	C-N002	Moderate	peak COVID-19 hyper-inflammation
+16	CG17	C-N005	Moderate	peak COVID-19 hyper-inflammation
+4	CG17	C-N005	Moderate	peak COVID-19 hyper-inflammation
+8	CG20	C-N008	Moderate	peak COVID-19 hyper-inflammation
+20	CG20	C-N008	Moderate	peak COVID-19 hyper-inflammation
+14	CG21	C-N011	Moderate	peak COVID-19 hyper-inflammation
+16	CG21	C-N011	Moderate	resolution or persistent COVID-19 inflammation
+18	CG21	C-N011	Moderate	peak COVID-19 hyper-inflammation
+15	CG39	C-T007	Moderate	rising systemic inflammation
+11	CG39	C-T007	Moderate	rising systemic inflammation
+13	CG39	C-T007	Moderate	early infection
+8	CG40	C-T008	Moderate	early infection
+10	CG69	C-T126	Moderate	resolution or persistent COVID-19 inflammation
+3	CG69	C-T126	Moderate	peak COVID-19 hyper-inflammation
+4	CG69	C-T126	Moderate	peak COVID-19 hyper-inflammation
+13	CG76	C-T153	Moderate	rising systemic inflammation
+12	CG81	C-T164	Moderate	peak COVID-19 hyper-inflammation
+17	CG83	C-T170	Moderate	resolution or persistent COVID-19 inflammation
+2	CG83	C-T170	Moderate	peak COVID-19 hyper-inflammation
+19	CG84	C-T174	Moderate	peak COVID-19 hyper-inflammation
+3	CG90	C-T188	Moderate	peak COVID-19 hyper-inflammation
+15	CG90	C-T188	Moderate	resolution or persistent COVID-19 inflammation
+14	CG93	C-T032	Moderate	resolution or persistent COVID-19 inflammation

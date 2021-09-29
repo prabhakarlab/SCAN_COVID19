@@ -1,0 +1,6 @@
+batch	sample	severity
+19	CG10	Moderate
+20	CG20	Moderate
+15	CG61	Critical
+13	CG76	Moderate
+19	CG84	Moderate

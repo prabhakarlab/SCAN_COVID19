@@ -1,0 +1,287 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	day_after_symptom	cat.x
+CG1	C-A001	1	2	16_CG1	0	rising systemic inflammation	5	3
+CG1	C-A001	2	2	2_CG1	0	rising systemic inflammation	7	3
+CG1	C-A001	3	2	5_CG1	0	peak COVID-19 hyper-inflammation	12	4
+CG1	C-A001	4	2	6_CG1	0	resolution or persistent COVID-19 inflammation	20	5
+CG2	C-A002	1	6	6_CG2	6	rising systemic inflammation	7	3
+CG2	C-A002	2	6	7_CG2	6	peak COVID-19 hyper-inflammation	10	4
+CG2	C-A002	3	6	9_CG2	6	peak COVID-19 hyper-inflammation	13	4
+CG2	C-A002	4	3	10_CG2	6	resolution or persistent COVID-19 inflammation	19	5
+CG3	C-A003	1	2	7_CG3	0	rising systemic inflammation	7	3
+CG3	C-A003	2	2	17_CG3	0	peak COVID-19 hyper-inflammation	12	4
+CG3	C-A003	3	2	18_CG3	0	resolution or persistent COVID-19 inflammation	18	5
+CG4	C-A005	1	6	20_CG4	0	rising systemic inflammation	5	3
+CG5	C-A006	1	2	6_CG5	0	peak COVID-19 hyper-inflammation	14	4
+CG6	C-C001	1	2	19_CG6	0	resolution or persistent COVID-19 inflammation	17	5
+CG6	C-C001	2	2	17_CG6	0	resolution or persistent COVID-19 inflammation	23	5
+CG7	C-C002	1	2	14_CG7	0	rising systemic inflammation	8	3
+CG7	C-C002	2	2	17_CG7	0	resolution or persistent COVID-19 inflammation	15	5
+CG8	C-C004	1	2	2_CG8	0	peak COVID-19 hyper-inflammation	13	4
+CG8	C-C004	2	2	5_CG8	0	resolution or persistent COVID-19 inflammation	16	5
+CG8	C-C004	3	2	20_CG8	0	resolution or persistent COVID-19 inflammation	20	5
+CG91	C-C005	2	3	18_CG91	0	resolution or persistent COVID-19 inflammation	16	5
+CG91	C-C005	1	3	15_CG91	0	peak COVID-19 hyper-inflammation	9	4
+CG9	C-C015	2	3	17_CG9	0	resolution or persistent COVID-19 inflammation	15	5
+CG9	C-C015	1	3	3_CG9	0	peak COVID-19 hyper-inflammation	9	4
+CG10	C-C018	1	3	6_CG10	3	peak COVID-19 hyper-inflammation	10	4
+CG10	C-C018	2	4	19_CG10	3	resolution or persistent COVID-19 inflammation	16	5
+CG10	C-C018	3	3	5_CG10	3	resolution or persistent COVID-19 inflammation	23	5
+CG11	C-C020	1	2	9_CG11	0	early infection	1	2
+CG92	C-C021	1	5	3_CG92	5	rising systemic inflammation	6	3
+CG92	C-C021	2	3	12_CG92	5	peak COVID-19 hyper-inflammation	12	4
+CG92	C-C021	3	3	13_CG92	5	resolution or persistent COVID-19 inflammation	19	5
+CG12	C-C024	1	4	5_CG12	4	rising systemic inflammation	7	3
+CG12	C-C024	2	3	3_CG12	4	peak COVID-19 hyper-inflammation	13	4
+CG13	C-N001	1	3	1_CG13	0	early infection	4	2
+CG13	C-N001	2	3	11_CG13	0	rising systemic inflammation	6	3
+CG13	C-N001	3	3	7_CG13	0	peak COVID-19 hyper-inflammation	10	4
+CG13	C-N001	4	3	18_CG13	0	resolution or persistent COVID-19 inflammation	16	5
+CG14	C-N002	1	4	6_CG14	4	rising systemic inflammation	8	3
+CG14	C-N002	2	4	9_CG14	4	peak COVID-19 hyper-inflammation	11	4
+CG14	C-N002	3	3	8_CG14	4	resolution or persistent COVID-19 inflammation	14	5
+CG14	C-N002	4	3	11_CG14	4	resolution or persistent COVID-19 inflammation	21	5
+CG15	C-N003	1	3	6_CG15	0	peak COVID-19 hyper-inflammation	10	4
+CG15	C-N003	2	3	7_CG15	0	peak COVID-19 hyper-inflammation	13	4
+CG15	C-N003	3	3	10_CG15	0	resolution or persistent COVID-19 inflammation	16	5
+CG16	C-N004	1	2	13_CG16	0	peak COVID-19 hyper-inflammation	14	4
+CG16	C-N004	2	2	19_CG16	0	resolution or persistent COVID-19 inflammation	16	5
+CG17	C-N005	1	4	16_CG17	0	peak COVID-19 hyper-inflammation	11	4
+CG18	C-N006	1	3	17_CG18	0	rising systemic inflammation	7	3
+CG19	C-N007	3	4	7_CG19	0	resolution or persistent COVID-19 inflammation	20	5
+CG19	C-N007	1	4	5_CG19	0	rising systemic inflammation	8	3
+CG19	C-N007	2	4	6_CG19	0	peak COVID-19 hyper-inflammation	9	4
+CG20	C-N008	1	3	1_CG20	3	rising systemic inflammation	7	3
+CG20	C-N008	2	4	20_CG20	3	peak COVID-19 hyper-inflammation	10	4
+CG20	C-N008	3	4	8_CG20	3	peak COVID-19 hyper-inflammation	12	4
+CG20	C-N008	4	3	6_CG20	3	resolution or persistent COVID-19 inflammation	18	5
+CG21	C-N011	2	4	18_CG21	0	peak COVID-19 hyper-inflammation	11	4
+CG21	C-N011	3	4	16_CG21	0	resolution or persistent COVID-19 inflammation	16	5
+CG21	C-N011	1	4	14_CG21	0	peak COVID-19 hyper-inflammation	9	4
+CG22	C-N012	1	3	16_CG22	0	rising systemic inflammation	7	3
+CG22	C-N012	2	3	20_CG22	0	peak COVID-19 hyper-inflammation	10	4
+CG22	C-N012	3	3	11_CG22	0	peak COVID-19 hyper-inflammation	13	4
+CG23	C-N013	1	3	11_CG23	0	rising systemic inflammation	5	3
+CG23	C-N013	2	3	12_CG23	0	rising systemic inflammation	8	3
+CG23	C-N013	3	3	13_CG23	0	peak COVID-19 hyper-inflammation	12	4
+CG23	C-N013	4	3	15_CG23	0	resolution or persistent COVID-19 inflammation	20	5
+CG24	C-N018	1	6	2_CG24	6	rising systemic inflammation	7	3
+CG24	C-N018	2	6	18_CG24	6	peak COVID-19 hyper-inflammation	10	4
+CG24	C-N018	3	3	10_CG24	6	resolution or persistent COVID-19 inflammation	16	5
+CG25	C-N019	4	3	14_CG25	0	peak COVID-19 hyper-inflammation	14	4
+CG25	C-N019	1	3	3_CG25	0	early infection	2	2
+CG25	C-N019	2	3	8_CG25	0	rising systemic inflammation	5	3
+CG25	C-N019	3	3	11_CG25	0	rising systemic inflammation	8	3
+CG27	C-N022	1	3	19_CG27	0	peak COVID-19 hyper-inflammation	10	4
+CG27	C-N022	2	3	16_CG27	0	peak COVID-19 hyper-inflammation	13	4
+CG28	C-N025	1	3	2_CG28	0	rising systemic inflammation	5	3
+CG28	C-N025	2	3	9_CG28	0	rising systemic inflammation	8	3
+CG29	C-N031	1	2	19_CG29	0	rising systemic inflammation	7	3
+CG29	C-N031	2	2	7_CG29	0	peak COVID-19 hyper-inflammation	9	4
+CG30	C-N036	3	2	14_CG30	0	peak COVID-19 hyper-inflammation	12	4
+CG30	C-N036	1	2	2_CG30	0	rising systemic inflammation	6	3
+CG30	C-N036	2	2	12_CG30	0	rising systemic inflammation	7	3
+CG31	C-N038	3	3	9_CG31	0	peak COVID-19 hyper-inflammation	11	4
+CG31	C-N038	1	3	3_CG31	0	rising systemic inflammation	6	3
+CG31	C-N038	2	3	17_CG31	0	peak COVID-19 hyper-inflammation	9	4
+CG32	C-N040	1	5	4_CG32	5	rising systemic inflammation	6	3
+CG32	C-N040	2	6	1_CG32	5	peak COVID-19 hyper-inflammation	9	4
+CG32	C-N040	3	5	8_CG32	5	peak COVID-19 hyper-inflammation	11	4
+CG33	C-N044	2	3	9_CG33	0	rising systemic inflammation	6	3
+CG33	C-N044	1	3	4_CG33	0	early infection	4	2
+CG34	C-N045	2	2	11_CG34	0	rising systemic inflammation	5	3
+CG34	C-N045	1	2	9_CG34	0	early infection	3	2
+CG35	C-N068	2	3	3_CG35	0	rising systemic inflammation	8	3
+CG35	C-N068	1	3	18_CG35	0	early infection	4	2
+CG35	C-N068	3	3	4_CG35	0	peak COVID-19 hyper-inflammation	11	4
+CG104	C-N069	2	3	9_CG104	0	peak COVID-19 hyper-inflammation	12	4
+CG104	C-N069	1	3	20_CG104	0	rising systemic inflammation	8	3
+CG104	C-N069	3	3	11_CG104	0	resolution or persistent COVID-19 inflammation	15	5
+CG105	C-N071	1	5	2_CG105	0	peak COVID-19 hyper-inflammation	10	4
+CG105	C-N071	2	5	5_CG105	0	peak COVID-19 hyper-inflammation	13	4
+CG106	C-N072	1	2	15_CG106	0	rising systemic inflammation	6	3
+CG107	C-N073	1	2	19_CG107	0	resolution or persistent COVID-19 inflammation	17	5
+CG107	C-N073	2	2	5_CG107	0	resolution or persistent COVID-19 inflammation	21	5
+C-N074-1	C-N074	1	3	1_C-N074-1	0	rising systemic inflammation	6	3
+C-N074-1	C-N074	2	3	16_C-N074-1	0	peak COVID-19 hyper-inflammation	9	4
+CG109	C-N081	1	1	6_CG109	0	Asymptomatic	NA	1
+CG110	C-N082	1	1	17_CG110	0	Asymptomatic	NA	1
+CG111	C-N083	1	1	19_CG111	0	Asymptomatic	NA	1
+CG112	C-N084	2	1	14_CG112	0	Asymptomatic	NA	1
+CG112	C-N084	1	1	8_CG112	0	Asymptomatic	NA	1
+CG36	C-S013	1	2	6_CG36	0	resolution or persistent COVID-19 inflammation	17	5
+CG36	C-S013	2	2	11_CG36	0	resolution or persistent COVID-19 inflammation	19	5
+CG37	C-T001	1	3	14_CG37	0	peak COVID-19 hyper-inflammation	10	4
+CG37	C-T001	2	3	16_CG37	0	peak COVID-19 hyper-inflammation	14	4
+CG38	C-T004	1	2	10_CG38	0	rising systemic inflammation	8	3
+CG38	C-T004	4	2	13_CG38	0	resolution or persistent COVID-19 inflammation	18	5
+CG38	C-T004	5	2	1_CG38	0	resolution or persistent COVID-19 inflammation	25	5
+CG38	C-T004	2	2	20_CG38	0	peak COVID-19 hyper-inflammation	10	4
+CG38	C-T004	3	2	12_CG38	0	peak COVID-19 hyper-inflammation	12	4
+CG39	C-T007	1	4	13_CG39	4	early infection	3	2
+CG39	C-T007	2	4	11_CG39	4	rising systemic inflammation	5	3
+CG39	C-T007	3	4	15_CG39	4	rising systemic inflammation	7	3
+CG39	C-T007	4	3	4_CG39	4	peak COVID-19 hyper-inflammation	9	4
+CG40	C-T008	1	4	8_CG40	4	early infection	3	2
+CG40	C-T008	2	3	10_CG40	4	rising systemic inflammation	5	3
+CG41	C-T009	1	4	12_CG41	4	early infection	3	2
+CG41	C-T009	2	4	17_CG41	4	rising systemic inflammation	5	3
+CG41	C-T009	3	6	11_CG41	4	peak COVID-19 hyper-inflammation	9	4
+CG41	C-T009	4	3	2_CG41	4	resolution or persistent COVID-19 inflammation	16	5
+CG42	C-T012	1	3	7_CG42	0	peak COVID-19 hyper-inflammation	13	4
+CG42	C-T012	2	3	13_CG42	0	resolution or persistent COVID-19 inflammation	15	5
+CG43	C-T014	1	2	6_CG43	2	early infection	2	2
+CG43	C-T014	2	2	13_CG43	2	early infection	4	2
+CG43	C-T014	3	3	16_CG43	2	rising systemic inflammation	7	3
+CG43	C-T014	4	3	19_CG43	2	resolution or persistent COVID-19 inflammation	15	5
+CG44	C-T018	1	3	2_CG44	0	resolution or persistent COVID-19 inflammation	15	5
+CG44	C-T018	2	3	12_CG44	0	resolution or persistent COVID-19 inflammation	17	5
+CG44	C-T018	3	3	14_CG44	0	resolution or persistent COVID-19 inflammation	20	5
+CG45	C-T020	1	3	2_CG45	0	rising systemic inflammation	6	3
+CG45	C-T020	2	3	8_CG45	0	rising systemic inflammation	8	3
+CG45	C-T020	3	3	12_CG45	0	peak COVID-19 hyper-inflammation	12	4
+CG46	C-T021	1	2	16_CG46	0	early infection	3	2
+CG46	C-T021	2	2	6_CG46	0	rising systemic inflammation	5	3
+CG46	C-T021	3	2	11_CG46	0	peak COVID-19 hyper-inflammation	9	4
+CG47	C-T023	1	2	20_CG47	0	rising systemic inflammation	6	3
+CG47	C-T023	2	2	3_CG47	0	rising systemic inflammation	8	3
+CG47	C-T023	3	2	14_CG47	0	resolution or persistent COVID-19 inflammation	19	5
+CG48	C-T025	1	2	3_CG48	2	rising systemic inflammation	5	3
+CG48	C-T025	2	2	12_CG48	2	resolution or persistent COVID-19 inflammation	11	5
+CG48	C-T025	3	3	13_CG48	2	resolution or persistent COVID-19 inflammation	18	5
+CG49	C-T030	1	3	7_CG49	0	early infection	4	2
+CG49	C-T030	2	3	20_CG49	0	rising systemic inflammation	7	3
+CG49	C-T030	3	3	11_CG49	0	peak COVID-19 hyper-inflammation	10	4
+C-T031-1	C-T031	1	3	1_C-T031-1	0	rising systemic inflammation	8	3
+C-T031-1	C-T031	2	3	7_C-T031-1	0	peak COVID-19 hyper-inflammation	10	4
+C-T031-1	C-T031	3	3	14_C-T031-1	0	resolution or persistent COVID-19 inflammation	15	5
+CG93	C-T032	1	4	14_CG93	4	resolution or persistent COVID-19 inflammation	18	5
+CG93	C-T032	2	3	11_CG93	4	resolution or persistent COVID-19 inflammation	20	5
+CG93	C-T032	3	3	20_CG93	4	resolution or persistent COVID-19 inflammation	25	5
+CG51	C-T034	1	2	5_CG51	2	peak COVID-19 hyper-inflammation	9	4
+CG51	C-T034	2	2	15_CG51	2	peak COVID-19 hyper-inflammation	11	4
+CG51	C-T034	3	3	10_CG51	2	resolution or persistent COVID-19 inflammation	15	5
+CG51	C-T034	4	3	13_CG51	2	resolution or persistent COVID-19 inflammation	19	5
+CG52	C-T039	1	2	18_CG52	0	early infection	4	2
+CG52	C-T039	2	2	9_CG52	0	rising systemic inflammation	6	3
+CG94	C-T046	1	6	7_CG94	6	resolution or persistent COVID-19 inflammation	18	5
+CG94	C-T046	2	4	11_CG94	6	resolution or persistent COVID-19 inflammation	31	5
+CG94	C-T046	3	4	2_CG94	6	resolution or persistent COVID-19 inflammation	38	5
+CG94	C-T046	4	4	6_CG94	6	resolution or persistent COVID-19 inflammation	45	5
+CG95	C-T054	4	6	19_CG95	0	resolution or persistent COVID-19 inflammation	37	5
+CG95	C-T054	2	6	17_CG95	0	resolution or persistent COVID-19 inflammation	23	5
+CG95	C-T054	1	6	16_CG95	0	resolution or persistent COVID-19 inflammation	19	5
+CG95	C-T054	3	6	20_CG95	0	resolution or persistent COVID-19 inflammation	30	5
+CG96	C-T055	3	6	10_CG96	0	resolution or persistent COVID-19 inflammation	34	5
+CG96	C-T055	4	6	11_CG96	0	resolution or persistent COVID-19 inflammation	41	5
+CG96	C-T055	5	6	15_CG96	0	resolution or persistent COVID-19 inflammation	48	5
+CG96	C-T055	1	6	2_CG96	0	resolution or persistent COVID-19 inflammation	21	5
+CG96	C-T055	2	6	18_CG96	0	resolution or persistent COVID-19 inflammation	27	5
+CG55	C-T056	4	2	13_CG55	0	resolution or persistent COVID-19 inflammation	18	5
+CG55	C-T056	1	2	4_CG55	0	rising systemic inflammation	5	3
+CG55	C-T056	2	2	8_CG55	0	rising systemic inflammation	6	3
+CG55	C-T056	3	2	10_CG55	0	peak COVID-19 hyper-inflammation	11	4
+CG56	C-T059	3	3	8_CG56	0	resolution or persistent COVID-19 inflammation	21	5
+CG56	C-T059	1	3	20_CG56	0	rising systemic inflammation	8	3
+CG56	C-T059	2	3	5_CG56	0	peak COVID-19 hyper-inflammation	14	4
+CG57	C-T068	2	3	8_CG57	0	peak COVID-19 hyper-inflammation	13	4
+CG57	C-T068	1	3	4_CG57	0	rising systemic inflammation	7	3
+C-T069-1	C-T069	1	2	1_C-T069-1	2	rising systemic inflammation	8	3
+C-T069-1	C-T069	2	3	9_C-T069-1	2	peak COVID-19 hyper-inflammation	11	4
+CG59	C-T070	3	2	13_CG59	0	rising systemic inflammation	7	3
+CG59	C-T070	4	2	15_CG59	0	peak COVID-19 hyper-inflammation	13	4
+CG59	C-T070	1	2	9_CG59	0	early infection	1	2
+CG59	C-T070	2	2	12_CG59	0	early infection	4	2
+CG60	C-T073	1	2	15_CG60	2	early infection	2	2
+CG60	C-T073	2	3	17_CG60	2	early infection	4	2
+CG60	C-T073	3	3	6_CG60	2	rising systemic inflammation	8	3
+CG61	C-T074	1	3	3_CG61	3	early infection	4	2
+CG61	C-T074	2	6	15_CG61	3	resolution or persistent COVID-19 inflammation	18	5
+CG61	C-T074	3	6	16_CG61	3	resolution or persistent COVID-19 inflammation	32	5
+CG62	C-T079	1	6	17_CG62	6	rising systemic inflammation	6	3
+CG62	C-T079	2	6	19_CG62	6	rising systemic inflammation	8	3
+CG62	C-T079	3	6	13_CG62	6	peak COVID-19 hyper-inflammation	13	4
+CG62	C-T079	4	6	14_CG62	6	resolution or persistent COVID-19 inflammation	20	5
+CG62	C-T079	5	4	18_CG62	6	resolution or persistent COVID-19 inflammation	35	5
+CG64	C-T084	1	2	4_CG64	0	early infection	4	2
+CG64	C-T084	2	2	19_CG64	0	rising systemic inflammation	6	3
+CG64	C-T084	3	2	8_CG64	0	peak COVID-19 hyper-inflammation	10	4
+CG65	C-T101	1	3	3_CG65	0	rising systemic inflammation	5	3
+CG65	C-T101	2	3	5_CG65	0	rising systemic inflammation	8	3
+CG65	C-T101	3	3	16_CG65	0	peak COVID-19 hyper-inflammation	11	4
+CG66	C-T106	1	3	8_CG66	0	early infection	3	2
+CG66	C-T106	2	3	10_CG66	0	peak COVID-19 hyper-inflammation	9	4
+CG67	C-T115	1	2	14_CG67	0	early infection	4	2
+CG67	C-T115	2	2	20_CG67	0	rising systemic inflammation	6	3
+CG67	C-T115	3	2	15_CG67	0	peak COVID-19 hyper-inflammation	10	4
+CG68	C-T116	1	2	5_CG68	0	early infection	4	2
+CG68	C-T116	2	2	12_CG68	0	rising systemic inflammation	6	3
+CG68	C-T116	3	2	15_CG68	0	peak COVID-19 hyper-inflammation	10	4
+CG68	C-T116	4	2	16_CG68	0	resolution or persistent COVID-19 inflammation	18	5
+CG69	C-T126	1	4	3_CG69	0	peak COVID-19 hyper-inflammation	9	4
+CG69	C-T126	2	4	4_CG69	0	peak COVID-19 hyper-inflammation	12	4
+CG69	C-T126	3	4	10_CG69	0	resolution or persistent COVID-19 inflammation	17	5
+CG70	C-T129	1	3	2_CG70	0	early infection	3	2
+CG70	C-T129	2	3	6_CG70	0	rising systemic inflammation	5	3
+CG71	C-T135	1	2	4_CG71	0	early infection	4	2
+CG71	C-T135	2	2	8_CG71	0	rising systemic inflammation	6	3
+CG72	C-T144	1	2	8_CG72	0	rising systemic inflammation	8	3
+CG72	C-T144	2	2	9_CG72	0	peak COVID-19 hyper-inflammation	11	4
+CG73	C-T145	1	2	14_CG73	0	early infection	4	2
+CG73	C-T145	2	2	7_CG73	0	rising systemic inflammation	7	3
+C-T147-1	C-T147	1	2	1_C-T147-1	0	early infection	3	2
+C-T147-1	C-T147	2	2	17_C-T147-1	0	rising systemic inflammation	6	3
+C-T147-1	C-T147	3	2	2_C-T147-1	0	peak COVID-19 hyper-inflammation	10	4
+CG75	C-T150	1	2	5_CG75	2	early infection	4	2
+CG75	C-T150	2	3	12_CG75	2	rising systemic inflammation	7	3
+CG75	C-T150	3	3	18_CG75	2	peak COVID-19 hyper-inflammation	11	4
+CG97	C-T151	1	5	18_CG97	5	peak COVID-19 hyper-inflammation	10	4
+CG97	C-T151	2	4	20_CG97	5	resolution or persistent COVID-19 inflammation	17	5
+CG97	C-T151	3	3	4_CG97	5	resolution or persistent COVID-19 inflammation	24	5
+CG76	C-T153	1	3	4_CG76	3	rising systemic inflammation	6	3
+CG76	C-T153	2	4	13_CG76	3	rising systemic inflammation	8	3
+CG76	C-T153	3	3	5_CG76	3	peak COVID-19 hyper-inflammation	12	4
+CG98	C-T154	1	5	9_CG98	5	peak COVID-19 hyper-inflammation	14	4
+CG98	C-T154	2	4	7_CG98	5	resolution or persistent COVID-19 inflammation	20	5
+CG98	C-T154	3	3	3_CG98	5	resolution or persistent COVID-19 inflammation	28	5
+CG77	C-T156	1	5	16_CG77	5	rising systemic inflammation	7	3
+CG77	C-T156	2	6	3_CG77	5	peak COVID-19 hyper-inflammation	13	4
+CG78	C-T157	1	3	17_CG78	0	rising systemic inflammation	8	3
+CG78	C-T157	2	3	18_CG78	0	peak COVID-19 hyper-inflammation	14	4
+CG79	C-T159	1	2	9_CG79	2	early infection	3	2
+CG79	C-T159	2	3	13_CG79	2	peak COVID-19 hyper-inflammation	9	4
+CG79	C-T159	3	3	14_CG79	2	resolution or persistent COVID-19 inflammation	16	5
+CG99	C-T160	2	6	8_CG99	0	peak COVID-19 hyper-inflammation	14	4
+CG99	C-T160	1	6	5_CG99	0	rising systemic inflammation	8	3
+CG99	C-T160	3	6	3_CG99	0	resolution or persistent COVID-19 inflammation	21	5
+CG100	C-T161	1	5	20_CG100	5	rising systemic inflammation	7	3
+CG100	C-T161	2	6	5_CG100	5	peak COVID-19 hyper-inflammation	13	4
+CG100	C-T161	3	5	10_CG100	5	resolution or persistent COVID-19 inflammation	20	5
+CG80	C-T163	2	3	19_CG80	0	peak COVID-19 hyper-inflammation	12	4
+CG80	C-T163	1	3	1_CG80	0	rising systemic inflammation	6	3
+CG81	C-T164	1	2	7_CG81	2	rising systemic inflammation	6	3
+CG81	C-T164	2	4	12_CG81	2	peak COVID-19 hyper-inflammation	13	4
+CG82	C-T165	2	2	5_CG82	0	peak COVID-19 hyper-inflammation	10	4
+CG82	C-T165	1	2	1_CG82	0	early infection	4	2
+CG101	C-T168	1	6	6_CG101	6	resolution or persistent COVID-19 inflammation	15	5
+CG101	C-T168	2	6	13_CG101	6	resolution or persistent COVID-19 inflammation	25	5
+CG101	C-T168	3	3	2_CG101	6	resolution or persistent COVID-19 inflammation	32	5
+CG83	C-T170	1	4	2_CG83	0	peak COVID-19 hyper-inflammation	9	4
+CG83	C-T170	2	4	17_CG83	0	resolution or persistent COVID-19 inflammation	16	5
+CG102	C-T173	3	6	12_CG102	0	resolution or persistent COVID-19 inflammation	18	5
+CG102	C-T173	1	6	4_CG102	0	early infection	4	2
+CG102	C-T173	2	6	9_CG102	0	peak COVID-19 hyper-inflammation	11	4
+CG84	C-T174	1	3	20_CG84	3	rising systemic inflammation	7	3
+CG84	C-T174	2	4	19_CG84	3	peak COVID-19 hyper-inflammation	14	4
+CG85	C-T177	1	2	3_CG85	0	early infection	3	2
+CG85	C-T177	2	2	15_CG85	0	peak COVID-19 hyper-inflammation	10	4
+CG86	C-T181	1	4	9_CG86	4	rising systemic inflammation	7	3
+CG86	C-T181	2	5	13_CG86	4	peak COVID-19 hyper-inflammation	13	4
+CG103	C-T182	1	3	17_CG103	0	resolution or persistent COVID-19 inflammation	19	5
+CG87	C-T184	1	5	19_CG87	5	peak COVID-19 hyper-inflammation	9	4
+CG87	C-T184	2	6	8_CG87	5	resolution or persistent COVID-19 inflammation	16	5
+CG88	C-T185	2	5	12_CG88	0	resolution or persistent COVID-19 inflammation	18	5
+CG88	C-T185	1	5	11_CG88	0	peak COVID-19 hyper-inflammation	11	4
+CG89	C-T186	1	5	14_CG89	5	early infection	4	2
+CG89	C-T186	2	3	7_CG89	5	peak COVID-19 hyper-inflammation	11	4
+CG90	C-T188	2	4	15_CG90	0	resolution or persistent COVID-19 inflammation	16	5
+CG90	C-T188	1	4	3_CG90	0	peak COVID-19 hyper-inflammation	9	4

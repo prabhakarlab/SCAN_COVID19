@@ -1,0 +1,7 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	cat.x
+CG13	C-N001	1	3	1_CG13	0	early infection	2
+CG25	C-N019	1	3	3_CG25	0	early infection	2
+CG33	C-N044	1	3	4_CG33	0	early infection	2
+CG35	C-N068	1	3	18_CG35	0	early infection	2
+CG49	C-T030	1	3	7_CG49	0	early infection	2
+CG70	C-T129	1	3	2_CG70	0	early infection	2

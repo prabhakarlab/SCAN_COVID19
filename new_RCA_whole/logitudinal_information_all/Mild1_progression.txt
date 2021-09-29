@@ -1,0 +1,12 @@
+batch	sample	donor	severity	date	type
+5	CG51	C-T034	Mild1	18/2/20	peak COVID-19 hyper-inflammation
+15	CG51	C-T034	Mild1	20/2/20	peak COVID-19 hyper-inflammation
+1	C-T069-1	C-T069	Mild1	9/3/20	rising systemic inflammation
+15	CG60	C-T073	Mild1	7/3/20	early infection
+5	CG75	C-T150	Mild1	23/3/20	early infection
+9	CG79	C-T159	Mild1	26/3/20	early infection
+7	CG81	C-T164	Mild1	27/3/20	rising systemic inflammation
+12	CG48	C-T025	Mild1	20/2/20	resolution or persistent COVID-19 inflammation
+3	CG48	C-T025	Mild1	14/2/20	rising systemic inflammation
+6	CG43	C-T014	Mild1	6/2/20	early infection
+13	CG43	C-T014	Mild1	8/2/20	early infection

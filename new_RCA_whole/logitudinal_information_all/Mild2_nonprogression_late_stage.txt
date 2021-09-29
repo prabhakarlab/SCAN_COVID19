@@ -1,0 +1,13 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	cat.x
+CG9	C-C015	2	3	17_CG9	0	resolution or persistent COVID-19 inflammation	5
+CG13	C-N001	4	3	18_CG13	0	resolution or persistent COVID-19 inflammation	5
+CG15	C-N003	3	3	10_CG15	0	resolution or persistent COVID-19 inflammation	5
+CG23	C-N013	4	3	15_CG23	0	resolution or persistent COVID-19 inflammation	5
+CG104	C-N069	3	3	11_CG104	0	resolution or persistent COVID-19 inflammation	5
+CG42	C-T012	2	3	13_CG42	0	resolution or persistent COVID-19 inflammation	5
+CG44	C-T018	1	3	2_CG44	0	resolution or persistent COVID-19 inflammation	5
+CG44	C-T018	2	3	12_CG44	0	resolution or persistent COVID-19 inflammation	5
+CG44	C-T018	3	3	14_CG44	0	resolution or persistent COVID-19 inflammation	5
+C-T031-1	C-T031	3	3	14_C-T031-1	0	resolution or persistent COVID-19 inflammation	5
+CG56	C-T059	3	3	8_CG56	0	resolution or persistent COVID-19 inflammation	5
+CG103	C-T182	1	3	17_CG103	0	resolution or persistent COVID-19 inflammation	5

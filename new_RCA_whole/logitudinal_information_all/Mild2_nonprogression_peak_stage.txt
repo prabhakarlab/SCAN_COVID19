@@ -1,0 +1,27 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	cat.x
+CG9	C-C015	1	3	3_CG9	0	peak COVID-19 hyper-inflammation	4
+CG13	C-N001	3	3	7_CG13	0	peak COVID-19 hyper-inflammation	4
+CG15	C-N003	1	3	6_CG15	0	peak COVID-19 hyper-inflammation	4
+CG15	C-N003	2	3	7_CG15	0	peak COVID-19 hyper-inflammation	4
+CG22	C-N012	2	3	20_CG22	0	peak COVID-19 hyper-inflammation	4
+CG22	C-N012	3	3	11_CG22	0	peak COVID-19 hyper-inflammation	4
+CG23	C-N013	3	3	13_CG23	0	peak COVID-19 hyper-inflammation	4
+CG25	C-N019	4	3	14_CG25	0	peak COVID-19 hyper-inflammation	4
+CG27	C-N022	1	3	19_CG27	0	peak COVID-19 hyper-inflammation	4
+CG27	C-N022	2	3	16_CG27	0	peak COVID-19 hyper-inflammation	4
+CG31	C-N038	3	3	9_CG31	0	peak COVID-19 hyper-inflammation	4
+CG31	C-N038	2	3	17_CG31	0	peak COVID-19 hyper-inflammation	4
+CG35	C-N068	3	3	4_CG35	0	peak COVID-19 hyper-inflammation	4
+CG104	C-N069	2	3	9_CG104	0	peak COVID-19 hyper-inflammation	4
+C-N074-1	C-N074	2	3	16_C-N074-1	0	peak COVID-19 hyper-inflammation	4
+CG37	C-T001	1	3	14_CG37	0	peak COVID-19 hyper-inflammation	4
+CG37	C-T001	2	3	16_CG37	0	peak COVID-19 hyper-inflammation	4
+CG42	C-T012	1	3	7_CG42	0	peak COVID-19 hyper-inflammation	4
+CG45	C-T020	3	3	12_CG45	0	peak COVID-19 hyper-inflammation	4
+CG49	C-T030	3	3	11_CG49	0	peak COVID-19 hyper-inflammation	4
+C-T031-1	C-T031	2	3	7_C-T031-1	0	peak COVID-19 hyper-inflammation	4
+CG56	C-T059	2	3	5_CG56	0	peak COVID-19 hyper-inflammation	4
+CG57	C-T068	2	3	8_CG57	0	peak COVID-19 hyper-inflammation	4
+CG65	C-T101	3	3	16_CG65	0	peak COVID-19 hyper-inflammation	4
+CG78	C-T157	2	3	18_CG78	0	peak COVID-19 hyper-inflammation	4
+CG80	C-T163	2	3	19_CG80	0	peak COVID-19 hyper-inflammation	4

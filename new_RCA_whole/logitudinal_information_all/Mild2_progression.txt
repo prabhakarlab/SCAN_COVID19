@@ -1,0 +1,9 @@
+BATCH	Genotyping_name	type
+6	CG10	peak COVID-19 hyper-inflammation
+4	CG18	rising systemic inflammation
+17	CG18	rising systemic inflammation
+1	CG20	rising systemic inflammation
+3	CG61	early infection
+12	CG61	rising systemic inflammation
+4	CG76	rising systemic inflammation
+20	CG84	rising systemic inflammation

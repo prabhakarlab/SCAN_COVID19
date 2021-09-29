@@ -1,0 +1,14 @@
+batch	sample	severity
+10	CG51	Mild2
+13	CG51	Mild2
+9	C-T069-1	Mild2
+17	CG60	Mild2
+6	CG60	Mild2
+12	CG75	Mild2
+18	CG75	Mild2
+13	CG79	Mild2
+14	CG79	Mild2
+12	CG81	Moderate
+13	CG48	Mild2
+16	CG43	Mild2
+19	CG43	Mild2

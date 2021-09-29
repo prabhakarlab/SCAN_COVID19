@@ -1,0 +1,20 @@
+geno	donor.x	timepoint	severity.value	sampleBatch	type	cat	cat.x
+CG1	C-A001	3	2	5_CG1	0	peak COVID-19 hyper-inflammation	4
+CG3	C-A003	2	2	17_CG3	0	peak COVID-19 hyper-inflammation	4
+CG5	C-A006	1	2	6_CG5	0	peak COVID-19 hyper-inflammation	4
+CG8	C-C004	1	2	2_CG8	0	peak COVID-19 hyper-inflammation	4
+CG16	C-N004	1	2	13_CG16	0	peak COVID-19 hyper-inflammation	4
+CG29	C-N031	2	2	7_CG29	0	peak COVID-19 hyper-inflammation	4
+CG30	C-N036	3	2	14_CG30	0	peak COVID-19 hyper-inflammation	4
+CG38	C-T004	2	2	20_CG38	0	peak COVID-19 hyper-inflammation	4
+CG38	C-T004	3	2	12_CG38	0	peak COVID-19 hyper-inflammation	4
+CG46	C-T021	3	2	11_CG46	0	peak COVID-19 hyper-inflammation	4
+CG55	C-T056	3	2	10_CG55	0	peak COVID-19 hyper-inflammation	4
+CG59	C-T070	4	2	15_CG59	0	peak COVID-19 hyper-inflammation	4
+CG64	C-T084	3	2	8_CG64	0	peak COVID-19 hyper-inflammation	4
+CG67	C-T115	3	2	15_CG67	0	peak COVID-19 hyper-inflammation	4
+CG68	C-T116	3	2	15_CG68	0	peak COVID-19 hyper-inflammation	4
+CG72	C-T144	2	2	9_CG72	0	peak COVID-19 hyper-inflammation	4
+C-T147-1	C-T147	3	2	2_C-T147-1	0	peak COVID-19 hyper-inflammation	4
+CG82	C-T165	2	2	5_CG82	0	peak COVID-19 hyper-inflammation	4
+CG85	C-T177	2	2	15_CG85	0	peak COVID-19 hyper-inflammation	4
